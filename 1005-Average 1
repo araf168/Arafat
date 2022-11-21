@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    double A, B, C, D, Average;
+    scanf("%lf%lf", &A, &B);
+    C=A*3.5+B*7.5;
+    D=3.5+7.5;
+    Average=(float)C/D;
+    printf("MEDIA = %.5lf\n", Average);
+ 
+    return 0;
+}
