@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int hour, speed, d;
+    double liter;
+    scanf("%d%d", &hour, &speed);
+    d=hour*speed;
+    liter=(double)d/12;
+    printf("%.3lf\n", liter);
+ 
+    return 0;
+}
