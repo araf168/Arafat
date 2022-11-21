@@ -1,0 +1,14 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int employee_number, worked_hours;
+    double per_hour, salary;
+    scanf("%d%d%lf", &employee_number, &worked_hours, &per_hour);
+    salary=worked_hours * per_hour;
+    printf("NUMBER = %d\nSALARY = U$ %.2lf\n", employee_number, salary);
+ 
+    return 0;
+}
