@@ -1,0 +1,12 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int x,y, m,d;
+    scanf("%d", &x);
+    y=(double)x/365;
+    m=(double)(x%365)/30;
+    d=(x%365)%30;
+    printf("%d ano(s)\n%d mes(es)\n%d dia(s)\n", y,m,d);
+    return 0;
+}
