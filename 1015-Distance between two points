@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    double x1, y1, x2, y2, e, Distance;
+    scanf("%lf%lf%lf%lf", &x1, &y1, &x2, &y2);
+    e=(pow((x2-x1), 2)+pow((y2-y1), 2));
+    Distance=sqrt(e);
+    printf("%.4lf\n",Distance);
+    return 0;
+        }
