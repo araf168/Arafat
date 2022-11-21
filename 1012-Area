@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+ double a,b,c,pi;
+ pi=3.14159;
+ cin>>a;
+ cin>>b;
+ cin>>c;
+ double d=.5*a*c;
+ double e=pi*pow(c,2);
+ double f=((.5*c)*(a+b));
+ double g=pow(b,2);
+ double h= a*b;
+ cout<<fixed<<setprecision(3)<<"TRIANGULO: "<<d<<endl<<"CIRCULO: "<<e<<endl<<"TRAPEZIO: "<<f<<endl<<"QUADRADO: "<<g<<endl<<"RETANGULO: "<<h<<endl;
+
+    return 0;
+}
