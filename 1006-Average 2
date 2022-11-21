@@ -1,0 +1,13 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    double A, B, C, Average;
+    scanf("%lf%lf%lf", &A, &B, &C);
+    Average= (A*2+B*3+C*5)/(2+3+5);
+    printf("MEDIA = %.1f\n", Average);
+ 
+    return 0;
+}
