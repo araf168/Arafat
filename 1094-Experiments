@@ -1,0 +1,33 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int x,i,n,sum=0,S=0,C=0,R=0;
+    char c;
+    char d='%';
+    double a1,a2,a3;
+    scanf("%d",&x);
+    for(i=0; i<x; i++)
+    {
+        scanf("%d %c",&n,&c);
+        sum=sum+n;
+        if(c=='S')
+        S=S+n;
+         if(c=='C')
+         C=C+n;
+             if(c=='R')
+             R=R+n;
+    }
+    a1=((double)C/sum)*100;
+    a2=((double)R/sum)*100;
+    a3=((double)S/sum)*100;
+    printf("Total: %d cobaias\n",sum);
+    printf("Total de coelhos: %d\n", C);
+    printf("Total de ratos: %d\n", R);
+    printf("Total de sapos: %d\n", S);
+    printf("Percentual de coelhos: %.2lf %c\n",a1,d);
+    printf("Percentual de ratos: %.2lf %c\n",a2,d);
+    printf("Percentual de sapos: %.2lf %c\n",a3,d);
+ 
+    return 0;
+}
